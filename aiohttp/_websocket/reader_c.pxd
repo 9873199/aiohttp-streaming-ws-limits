@@ -107,6 +107,7 @@ cdef class WebSocketReader:
         fin=bint,
         has_partial=bint,
         payload_merged=bytes,
+        decompressed=bytes,
     )
     cpdef void _handle_frame(self, bint fin, int opcode, object payload, int compressed) except *
 

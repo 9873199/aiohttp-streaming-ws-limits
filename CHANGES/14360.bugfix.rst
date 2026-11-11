@@ -1,0 +1,7 @@
+Decompressed WebSocket messages incrementally in ``WebSocketReader``: each
+permessage-deflate fragment is now inflated as it arrives and checked
+against ``max_msg_size`` in the same ``feed_data()`` call, instead of
+accumulating the compressed fragments until the final one. Only the
+decompressed output (bounded by ``max_msg_size``) is retained, the deflate
+dictionary is kept across messages as negotiated with context takeover, and
+a parse failure releases the in-flight buffers immediately.

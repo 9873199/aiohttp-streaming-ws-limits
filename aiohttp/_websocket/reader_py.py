@@ -247,8 +247,10 @@ class WebSocketReader:
                 f"Message size {msg_size} exceeds limit {max_msg_size}",
             )
             set_exception(self.queue, self._exc)
+            self._partial.clear()
             self._payload_fragments.clear()
             self._payload_buffer = bytearray()
+            self._decompressobj = None
 
     def feed_eof(self) -> None:
         self.queue.feed_eof()
@@ -267,6 +269,15 @@ class WebSocketReader:
             self._feed_data(data)
         except Exception as exc:
             self._exc = exc
+            # The message being parsed is dead: release everything buffered
+            # for it now, so a peer that keeps the connection open after a
+            # failure cannot make us hold the partial assembly and the
+            # deflate state until the reader is garbage collected.
+            self._partial.clear()
+            self._payload_fragments.clear()
+            self._payload_buffer = bytearray()
+            self._tail = b""
+            self._decompressobj = None
             set_exception(self.queue, exc)
             return EMPTY_FRAME_ERROR
 
@@ -288,9 +299,18 @@ class WebSocketReader:
                     "Continuation frame for non started message",
                 )
 
-            # load text/binary
-            if not fin:
-                # got partial frame payload
+            payload_merged: bytes
+            if compressed:
+                # Per-message deflate turns the whole message into one
+                # deflate stream split over the fragments, so each fragment
+                # is inflated as it arrives: an over-limit message is
+                # rejected by the feed_data() call that crosses
+                # max_msg_size instead of after the final fragment, and the
+                # compressed bytes are never accumulated. Only the
+                # decompressed output (bounded by max_msg_size) is retained
+                # in _partial. The decompressor is kept across messages, so
+                # the sliding window (dictionary) is retained exactly as
+                # negotiated with context takeover.
                 if opcode != OP_CODE_CONTINUATION:
                     # https://datatracker.ietf.org/doc/html/rfc6455#section-5.4
                     if self._opcode != OP_CODE_NOT_SET:
@@ -300,44 +320,24 @@ class WebSocketReader:
                             f"to be zero, got {opcode!r}",
                         )
                     self._opcode = opcode
-                self._partial += payload
-                return
-
-            has_partial = bool(self._partial)
-            if opcode == OP_CODE_CONTINUATION:
-                opcode = self._opcode
-                self._opcode = OP_CODE_NOT_SET
-            # previous frame was non finished
-            # we should get continuation opcode
-            elif has_partial:
-                raise WebSocketError(
-                    WSCloseCode.PROTOCOL_ERROR,
-                    "The opcode in non-fin frame is expected "
-                    f"to be zero, got {opcode!r}",
-                )
-
-            assembled_payload: bytes | bytearray
-            if has_partial:
-                assembled_payload = self._partial + payload
-                self._partial.clear()
-            else:
-                assembled_payload = payload
-
-            # Decompress process must to be done after all packets
-            # received.
-            if compressed:
                 if not self._decompressobj:
                     self._decompressobj = ZLibDecompressor(suppress_deflate_header=True)
+                if fin:
+                    # The sender strips the 0x00 0x00 0xff 0xff sync-flush
+                    # trailer from the last fragment; put it back so the
+                    # decompressor sees a complete stream.
+                    # https://datatracker.ietf.org/doc/html/rfc7692#section-7.2.2
+                    payload = bytes(payload) + WS_DEFLATE_TRAILING
                 # XXX: It's possible that the zlib backend (isal is known to
                 # do this, maybe others too?) will return max_length bytes,
                 # but internally buffer more data such that the payload is
                 # >max_length, so we return one extra byte and if we're able
                 # to do that, then the message is too big.
                 try:
-                    payload_merged = self._decompressobj.decompress_sync(
-                        assembled_payload + WS_DEFLATE_TRAILING,
+                    decompressed = self._decompressobj.decompress_sync(
+                        payload,
                         (
-                            self._max_msg_size + 1
+                            self._max_msg_size - len(self._partial) + 1
                             if self._max_msg_size
                             else self._max_msg_size
                         ),
@@ -347,15 +347,55 @@ class WebSocketReader:
                         WSCloseCode.MESSAGE_TOO_BIG,
                         "Compressed message has too many deflate members",
                     ) from exc
-                if self._max_msg_size and len(payload_merged) > self._max_msg_size:
+                self._partial += decompressed
+                if self._max_msg_size and len(self._partial) > self._max_msg_size:
                     raise WebSocketError(
                         WSCloseCode.MESSAGE_TOO_BIG,
                         f"Decompressed message exceeds size limit {self._max_msg_size}",
                     )
-            elif type(assembled_payload) is bytes:
-                payload_merged = assembled_payload
+                if not fin:
+                    return
+                if opcode == OP_CODE_CONTINUATION:
+                    opcode = self._opcode
+                self._opcode = OP_CODE_NOT_SET
+                payload_merged = bytes(self._partial)
+                self._partial.clear()
             else:
-                payload_merged = bytes(assembled_payload)
+                # load text/binary
+                if not fin:
+                    # got partial frame payload
+                    if opcode != OP_CODE_CONTINUATION:
+                        # https://datatracker.ietf.org/doc/html/rfc6455#section-5.4
+                        if self._opcode != OP_CODE_NOT_SET:
+                            raise WebSocketError(
+                                WSCloseCode.PROTOCOL_ERROR,
+                                "The opcode in non-fin frame is expected "
+                                f"to be zero, got {opcode!r}",
+                            )
+                        self._opcode = opcode
+                    self._partial += payload
+                    return
+
+                has_partial = bool(self._partial)
+                if opcode == OP_CODE_CONTINUATION:
+                    opcode = self._opcode
+                    self._opcode = OP_CODE_NOT_SET
+                # previous frame was non finished
+                # we should get continuation opcode
+                elif has_partial:
+                    raise WebSocketError(
+                        WSCloseCode.PROTOCOL_ERROR,
+                        "The opcode in non-fin frame is expected "
+                        f"to be zero, got {opcode!r}",
+                    )
+
+                if has_partial:
+                    payload_merged = bytes(self._partial + payload)
+                    self._partial.clear()
+                elif type(payload) is bytes:
+                    payload_merged = payload
+                else:
+                    payload_merged = bytes(payload)
 
             size = len(payload_merged)
             if opcode == OP_CODE_TEXT:
@@ -569,16 +609,32 @@ class WebSocketReader:
                     OP_CODE_BINARY,
                     OP_CODE_CONTINUATION,
                 }:
-                    # partial_len declared in reader_c.pxd to keep it in C.
-                    partial_len = len(self._partial)
-                    # payload_bytes_to_read is a signed Py_ssize_t C value,
-                    # use subtraction here to avoid an integer overflow.
-                    if self._payload_bytes_to_read >= self._max_msg_size - partial_len:
-                        raise WebSocketError(
-                            WSCloseCode.MESSAGE_TOO_BIG,
-                            f"Message size {int(self._payload_bytes_to_read) + partial_len} "
-                            f"exceeds limit {self._max_msg_size}",
-                        )
+                    if self._compressed == COMPRESSED_TRUE:
+                        # Compressed fragments are inflated as they arrive
+                        # and the compressed bytes discarded, so only this
+                        # frame's declared payload is ever buffered; the
+                        # decompressed total is enforced against
+                        # max_msg_size by the incremental decompressor.
+                        if self._payload_bytes_to_read >= self._max_msg_size:
+                            raise WebSocketError(
+                                WSCloseCode.MESSAGE_TOO_BIG,
+                                f"Message size {int(self._payload_bytes_to_read)} "
+                                f"exceeds limit {self._max_msg_size}",
+                            )
+                    else:
+                        # partial_len declared in reader_c.pxd to keep it in C.
+                        partial_len = len(self._partial)
+                        # payload_bytes_to_read is a signed Py_ssize_t C value,
+                        # use subtraction here to avoid an integer overflow.
+                        if (
+                            self._payload_bytes_to_read
+                            >= self._max_msg_size - partial_len
+                        ):
+                            raise WebSocketError(
+                                WSCloseCode.MESSAGE_TOO_BIG,
+                                f"Message size {int(self._payload_bytes_to_read) + partial_len} "
+                                f"exceeds limit {self._max_msg_size}",
+                            )
 
                 self._state = READ_PAYLOAD_MASK if self._has_mask else READ_PAYLOAD
 
