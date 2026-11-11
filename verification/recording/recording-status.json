@@ -1,0 +1,10 @@
+{
+  "video": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\product-run-75s.mp4",
+  "sha256": "b8c409c27dbf0a36a94d5f82c4ca4d9ce3c5a253864fb48661c6734463a3086c",
+  "capture_exit_code": 0,
+  "continuous": true,
+  "nominal_seconds": 75,
+  "source": "Fresh actual console process executing frozen-product commands",
+  "helper_is_separate_verification_tool": true,
+  "content_qa": "PENDING"
+}

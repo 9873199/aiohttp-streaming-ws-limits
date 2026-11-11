@@ -1,0 +1,11 @@
+{
+  "time": "2026-11-12T05:20:10+08:00",
+  "status": "PASS",
+  "scope": "Environment helper tested in this separate process only; no injection into active model and no new formal request",
+  "actual_global_cache": "D:\\hc\\userFeedback\\cache\\tool-cache\\zig",
+  "global_env": "D:\\hc\\userFeedback\\cache\\tool-cache\\zig",
+  "local_env": "D:\\hc\\userFeedback\\cache\\tool-cache\\zig-local",
+  "cache_resolution_verified": true,
+  "active_frozen_profile_changed": false,
+  "future_profile_still_requires_fresh_preflight_and_probe": true
+}

@@ -1,0 +1,10 @@
+{
+  "time": "2026-11-12T05:48:27+08:00",
+  "initial_gitlink": "01e105a30fd06e248bc8ac73c4adb34a63d4114a",
+  "final_gitlink": "01e105a30fd06e248bc8ac73c4adb34a63d4114a",
+  "declared_official_archive_hashes_verified": true,
+  "module_actually_rebuilt_and_imported": true,
+  "snapshot_gitlink_verified": true,
+  "old_freeze_audit_unchanged": true,
+  "note": "The old freeze audit ran before snapshot publication. This is a separate read-only follow-up, not a rewritten audit or a fake .git clone."
+}

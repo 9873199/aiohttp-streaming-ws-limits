@@ -1,0 +1,11 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+    "-B",
+    "-c",
+    "import importlib,json;from pathlib import Path;m=importlib.import_module('aiohttp._websocket.reader_c');p=Path(m.__file__).resolve();print(json.dumps({\"module\":m.__name__,\"path\":str(p)}));assert p.is_relative_to(Path('D:\\\\hc\\\\userFeedback\\\\cache\\\\native-replays\\\\uid116-r1\\\\source').resolve());assert p.suffix==\".pyd\""
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source",
+  "exit_code": 0,
+  "seconds": 1.7
+}

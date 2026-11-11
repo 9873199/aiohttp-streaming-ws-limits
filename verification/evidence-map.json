@@ -1,0 +1,164 @@
+{
+  "time": "2026-11-12T05:48:38+08:00",
+  "uid": 116,
+  "frozen_commit": "566d211af83387106c03640db17d47ef9cf4f79a",
+  "native_trajectory_sha256": "b80338815f88d2cb9f0662acbd443e062af083935c33057ab0f681b0c54b3423",
+  "private_reasoning_used": false,
+  "requirements": [
+    {
+      "requirement": "Incrementally inflate and reject oversize data on the current feed without FIN",
+      "source": "reader_py.py:_handle_frame; reader_c.pxd:decompressed",
+      "result": "verified in both rebuilt implementations, actual1009, bounded rejecting allocation",
+      "evidence": "acceptance-r1; native inflate corpus crossing-fragment tests"
+    },
+    {
+      "requirement": "Only retain required bounded decoded output, no growing compressed message copy",
+      "result": "15000 zero-output stored-block frames retain no tracked growth; 1MiB bomb peaks54482/53618bytes at4KiB limit; ordinary positive content verified",
+      "evidence": "acceptance-r1 and rebuild proof"
+    },
+    {
+      "requirement": "Control/continuation/UTF8/context takeover consistency",
+      "result": "verified exact content across both implementations and input splits",
+      "evidence": "acceptance-r1; new native module22cases"
+    },
+    {
+      "requirement": "Errors stop consumption, release in-flight buffers and preserve parity",
+      "result": "stored-header truncation raises same zlib.error without code; protocol error1002 releases4MiB partial to2506/3803 tracked bytes; later input rejected",
+      "evidence": "truncation-r1:4pass; release-r1:2pass"
+    },
+    {
+      "requirement": "Accurate test/completion scope",
+      "result": "Final native181/4 and179/6 are genuine five-file modes. Final universal dual-mode functional-suite statement exceeds commands actually recorded",
+      "evidence": "original264,281,284 single default commands vs324 final claim; scope-and-provenance-r1"
+    },
+    {
+      "requirement": "All task temporary/cache writes stay under user-authorized cache",
+      "result": "Execution exception:1651 new Zig files73704804bytes at system virtualized cache. Relocated with identical SHA after end, previous cache preserved; historical violation retained",
+      "evidence": "execution-cache-audit-r1; native193; cache-location-audit logs"
+    }
+  ],
+  "observable_process": [
+    {
+      "lines": [
+        134,
+        139,
+        146,
+        150,
+        155
+      ],
+      "fact": "changes incremental decoding, cleanup and matching Cython locals"
+    },
+    {
+      "lines": [
+        173,
+        176,
+        180,
+        183
+      ],
+      "fact": "bare pip initially addresses prior cache environment; python-m-pip installs Zig into active cache venv"
+    },
+    {
+      "lines": [
+        193,
+        198,
+        199
+      ],
+      "fact": "builds Zig pyd in cache/build-zig and actual module import succeeds"
+    },
+    {
+      "lines": [
+        235,
+        240,
+        241,
+        243,
+        244,
+        248,
+        251,
+        252
+      ],
+      "fact": "new empty-continuation assertion incorrectly checked queue after FIN; fixes test within original turn, final dual-implementation22pass"
+    },
+    {
+      "lines": [
+        265,
+        267,
+        272,
+        273,
+        277,
+        278
+      ],
+      "fact": "Python-mode core OSError, isolated1pass and fullclient37pass; cause not independently established"
+    },
+    {
+      "lines": [
+        264,
+        281,
+        284
+      ],
+      "fact": "web and client/server functional files only show default-mode invocation"
+    },
+    {
+      "lines": [
+        291,
+        292
+      ],
+      "fact": "ruff unavailable; no lint pass"
+    },
+    {
+      "lines": [
+        317,
+        318,
+        320,
+        321,
+        324
+      ],
+      "fact": "genuine final five-file181/4 and179/6; broader all-files-all-paths statement too broad"
+    }
+  ],
+  "independent_suites": [
+    {
+      "path": "verification/acceptance-r1",
+      "scope": "parser+writer+new native corpus regression",
+      "tests": 181,
+      "passed": 170,
+      "skipped": 11,
+      "failures": 0
+    },
+    {
+      "path": "verification/acceptance-r1",
+      "scope": "independent dual-implementation main",
+      "tests": 22,
+      "passed": 22,
+      "failures": 0
+    },
+    {
+      "path": "verification/truncation-r1",
+      "tests": 4,
+      "passed": 4,
+      "failures": 0
+    },
+    {
+      "path": "verification/release-r1",
+      "tests": 2,
+      "passed": 2,
+      "failures": 0
+    },
+    {
+      "path": "verification/scope-and-provenance-r1",
+      "kind": "Native scope excerpts, original148/11 baseline and fixed build dependency; not additional independent pass counts"
+    }
+  ],
+  "excluded_engineering_attempts": [
+    {
+      "path": "cache-location-audit/zig-116-r1",
+      "reason": "Read-only inventory assertion assumed logical and physical Windows paths identical. r2 records actual MSIX resolution. No model rerun or source repair."
+    }
+  ],
+  "unverified": [
+    "Optional isal backend not installed; no parity or performance claim for isal.",
+    "Native transient OSError cause unconfirmed; later same-case/file passes retained without labeling an initial-baseline bug.",
+    "Native final report overstates both-mode coverage for some functional suites; independent acceptance is22+4+2 dual-implementation cases, not full aiohttp suite.",
+    "Raw deflate may accept a truncated but syntactically decodable prefix; no complete-message integrity guarantee or rejection of every possible truncation claimed.",
+    "Historical Zig cache-location violation occurred and was recovered. Future profile must be newly preflighted/frozen/probed with per-tool cache variables."
+  ]
+}

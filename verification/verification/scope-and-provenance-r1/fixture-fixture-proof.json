@@ -1,0 +1,8 @@
+{
+  "kind": "FIXTURE_PREPARATION_NOT_MODEL_SCORE",
+  "valid_bytes": "000400fbff4441544100",
+  "expected_output_hex": "44415441",
+  "websocket_appended_tail": "0000ffff",
+  "truncated_bytes": "000400fb",
+  "actual_zlib_error": "Error -3 while decompressing data: invalid stored block lengths"
+}

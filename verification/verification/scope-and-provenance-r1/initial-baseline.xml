@@ -1,0 +1,1021 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="aiohttp_test_suite" errors="0" failures="0" skipped="11" tests="159" time="27.741" timestamp="2026-11-11T22:20:49.446436+08:00" hostname="DESKTOP-BPAMAV8"><testcase classname="tests.test_websocket_parser" name="test_close_frame" file="tests\test_websocket_parser.py" line="291" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_ping_frame[bytes]" file="tests\test_websocket_parser.py" line="270" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_header_reversed_bits" file="tests\test_websocket_parser.py" line="240" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_reserved_code[1005]" file="tests\test_websocket_parser.py" line="336" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_invalid_code_above_range[5000]" file="tests\test_websocket_parser.py" line="324" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_header_control_frame" file="tests\test_websocket_parser.py" line="247" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_info" file="tests\test_websocket_parser.py" line="297" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_unknown_frame" file="tests\test_websocket_parser.py" line="359" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_feed_data_remembers_exception" file="tests\test_websocket_parser.py" line="161" time="0.014"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_length2_multi_byte" file="tests\test_websocket_parser.py" line="197" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_ping_frame[bytearray]" file="tests\test_websocket_parser.py" line="270" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_reserved_code[1006]" file="tests\test_websocket_parser.py" line="336" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_header_new_data_err" file="tests\test_websocket_parser.py" line="254" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_invalid_code_above_range[9999]" file="tests\test_websocket_parser.py" line="324" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_invalid" file="tests\test_websocket_parser.py" line="305" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_ping_frame[memoryview]" file="tests\test_websocket_parser.py" line="270" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_simple_text" file="tests\test_websocket_parser.py" line="366" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame" file="tests\test_websocket_parser.py" line="172" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_invalid_code_above_range[65535]" file="tests\test_websocket_parser.py" line="324" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_reserved_code[1015]" file="tests\test_websocket_parser.py" line="336" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_length2_multi_byte_multi_packet" file="tests\test_websocket_parser.py" line="208" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_header_payload_size" file="tests\test_websocket_parser.py" line="261" time="0.011"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_pong_frame" file="tests\test_websocket_parser.py" line="285" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_invalid_2" file="tests\test_websocket_parser.py" line="313" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_length0" file="tests\test_websocket_parser.py" line="180" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_simple_text_unicode_err" file="tests\test_websocket_parser.py" line="373" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_length4" file="tests\test_websocket_parser.py" line="224" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_reserved_code[1004]" file="tests\test_websocket_parser.py" line="336" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_close_frame_unicode_err" file="tests\test_websocket_parser.py" line="350" time="0.013"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_with_close" file="tests\test_websocket_parser.py" line="507" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_length2" file="tests\test_websocket_parser.py" line="188" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_large_fragmented_masked_message" file="tests\test_websocket_parser.py" line="447" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_simple_binary" file="tests\test_websocket_parser.py" line="382" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_one_byte_at_a_time" file="tests\test_websocket_parser.py" line="391" time="0.014"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_fragmentation_header" file="tests\test_websocket_parser.py" line="402" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_frame_mask" file="tests\test_websocket_parser.py" line="232" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_with_close_unicode_err" file="tests\test_websocket_parser.py" line="524" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_compress_frame_multi" file="tests\test_websocket_parser.py" line="623" time="0.022"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_multi_member_message[isal.isal_zlib]" file="tests\test_websocket_parser.py" line="712" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_parser.py:713: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation" file="tests\test_websocket_parser.py" line="458" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_continuation_with_ping" file="tests\test_websocket_parser.py" line="643" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_with_close_bad_code" file="tests\test_websocket_parser.py" line="539" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1[9]" file="tests\test_websocket_parser.py" line="756" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_large_message" file="tests\test_websocket_parser.py" line="413" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_multi_block_message[zlib_ng.zlib_ng]" file="tests\test_websocket_parser.py" line="689" time="0.011"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_with_ping" file="tests\test_websocket_parser.py" line="471" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_frame_after_control_frame" file="tests\test_websocket_parser.py" line="671" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1[10]" file="tests\test_websocket_parser.py" line="756" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_with_close_bad_payload" file="tests\test_websocket_parser.py" line="552" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_member_flood_rejected[zlib]" file="tests\test_websocket_parser.py" line="736" time="0.032"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_large_masked_message" file="tests\test_websocket_parser.py" line="424" time="0.015"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_multi_block_message[isal.isal_zlib]" file="tests\test_websocket_parser.py" line="689" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_parser.py:690: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_err" file="tests\test_websocket_parser.py" line="489" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_with_close_empty" file="tests\test_websocket_parser.py" line="562" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_multi_block_message[zlib]" file="tests\test_websocket_parser.py" line="689" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1[8]" file="tests\test_websocket_parser.py" line="756" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_fragmented_masked_message" file="tests\test_websocket_parser.py" line="435" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_multi_member_message[zlib]" file="tests\test_websocket_parser.py" line="712" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1_no_compress[10]" file="tests\test_websocket_parser.py" line="768" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_continuation_non_fin_err" file="tests\test_websocket_parser.py" line="497" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1_no_compress[9]" file="tests\test_websocket_parser.py" line="768" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_no_compress_frame_single" file="tests\test_websocket_parser.py" line="802" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1_no_compress[8]" file="tests\test_websocket_parser.py" line="768" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_multi_member_message[zlib_ng.zlib_ng]" file="tests\test_websocket_parser.py" line="712" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_websocket_mask_python" file="tests\test_websocket_parser.py" line="582" time="0.199"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large" file="tests\test_websocket_parser.py" line="812" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_member_flood_rejected[zlib_ng.zlib_ng]" file="tests\test_websocket_parser.py" line="736" time="0.037"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_msg_too_large[zlib_ng.zlib_ng]" file="tests\test_websocket_parser.py" line="828" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_across_fragments" file="tests\test_websocket_parser.py" line="851" time="0.010"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_control_frame_with_rsv1_between_fragments" file="tests\test_websocket_parser.py" line="781" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_set_max_msg_size_rejects_frame_in_progress" file="tests\test_websocket_parser.py" line="890" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_websocket_mask_cython" file="tests\test_websocket_parser.py" line="588" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_declared_length_near_ssize_t_max" file="tests\test_websocket_parser.py" line="937" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_not_fin" file="tests\test_websocket_parser.py" line="820" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_msg_too_large[isal.isal_zlib]" file="tests\test_websocket_parser.py" line="828" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_parser.py:829: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_member_flood_rejected[isal.isal_zlib]" file="tests\test_websocket_parser.py" line="736" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_parser.py:737: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_websocket_mask_python_empty" file="tests\test_websocket_parser.py" line="600" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_set_max_msg_size_raised_for_frame_in_progress" file="tests\test_websocket_parser.py" line="905" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_set_max_msg_size_lowers_limit" file="tests\test_websocket_parser.py" line="870" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_compress_error_frame" file="tests\test_websocket_parser.py" line="792" time="0.014"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_at_header[fin]" file="tests\test_websocket_parser.py" line="837" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_msg_too_large[zlib]" file="tests\test_websocket_parser.py" line="828" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_declared_length_above_ssize_t_max[unbounded-ssize_t_max_plus_one]" file="tests\test_websocket_parser.py" line="964" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_declared_length_above_ssize_t_max[bounded-ssize_t_max_plus_one]" file="tests\test_websocket_parser.py" line="964" time="0.019"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_set_max_msg_size_raises_limit" file="tests\test_websocket_parser.py" line="882" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_websocket_mask_cython_empty" file="tests\test_websocket_parser.py" line="606" time="0.003"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0x3]" file="tests\test_websocket_parser.py" line="1012" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_text_after_non_fin_text" file="tests\test_websocket_parser.py" line="919" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0x6]" file="tests\test_websocket_parser.py" line="1012" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_at_header[non-fin]" file="tests\test_websocket_parser.py" line="837" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0xe]" file="tests\test_websocket_parser.py" line="1012" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_declared_length_above_ssize_t_max[unbounded-uint64_max]" file="tests\test_websocket_parser.py" line="964" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_compress_frame_single" file="tests\test_websocket_parser.py" line="615" time="0.011"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0xc]" file="tests\test_websocket_parser.py" line="1012" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_declared_length_above_ssize_t_max[bounded-uint64_max]" file="tests\test_websocket_parser.py" line="964" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0x4]" file="tests\test_websocket_parser.py" line="1012" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser.TestWebSocketError" name="test_ctor" file="tests\test_websocket_parser.py" line="1030" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0x7]" file="tests\test_websocket_parser.py" line="1012" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0xf]" file="tests\test_websocket_parser.py" line="1012" time="0.004"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0xd]" file="tests\test_websocket_parser.py" line="1012" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0x5]" file="tests\test_websocket_parser.py" line="1012" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_msg_too_large_above_ssize_t_max_reports_buffered_fragments" file="tests\test_websocket_parser.py" line="993" time="0.006"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser.TestWebSocketError" name="test_pickle" file="tests\test_websocket_parser.py" line="1035" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_reserved_opcode_rejected_at_header[0xb]" file="tests\test_websocket_parser.py" line="1012" time="0.005"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_flow_control_binary" file="tests\test_websocket_parser.py" line="1046" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_frame_split_under_cap_uses_list_without_folding" file="tests\test_websocket_parser.py" line="1201" time="0.018"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_empty_messages_apply_backpressure" file="tests\test_websocket_parser.py" line="1253" time="0.020"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_fragmented_message_survives_fold" file="tests\test_websocket_parser.py" line="1157" time="0.039"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_frame_split_across_many_reads_is_delivered_intact[True]" file="tests\test_websocket_parser.py" line="1109" time="0.032"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_flow_control_multi_byte_text" file="tests\test_websocket_parser.py" line="1059" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_burst_stops_at_high_water" file="tests\test_websocket_parser.py" line="1270" time="0.029"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_max_msg_size_zero_opts_out_of_the_fold" file="tests\test_websocket_parser.py" line="1223" time="0.095"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_backpressure_does_not_drop_stashed_frames" file="tests\test_websocket_parser.py" line="1317" time="0.038"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_read_ending_on_frame_boundary_does_not_stall" file="tests\test_websocket_parser.py" line="1394" time="0.026"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_drain_resumes_parsing_in_batches" file="tests\test_websocket_parser.py" line="1343" time="0.034"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_consecutive_folded_frames_do_not_bleed" file="tests\test_websocket_parser.py" line="1135" time="0.024"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_compressed_frame_survives_fold" file="tests\test_websocket_parser.py" line="1182" time="0.054"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_read_arriving_over_high_water_inflates_nothing" file="tests\test_websocket_parser.py" line="1292" time="0.038"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_stalled_reader_reference_released_after_drain" file="tests\test_websocket_parser.py" line="1439" time="0.020"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_backpressure_stash_survives_eof" file="tests\test_websocket_parser.py" line="1420" time="0.032"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_incomplete_frame_retained_objects_stay_bounded" file="tests\test_websocket_parser.py" line="1075" time="0.326"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_parse_error_abandons_the_stash" file="tests\test_websocket_parser.py" line="1484" time="0.026"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_burst_under_high_water_is_parsed_in_one_read" file="tests\test_websocket_parser.py" line="1583" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_ping" file="tests\test_websocket_writer.py" line="40" time="0.011"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_queue_does_not_keep_stalled_reader_alive" file="tests\test_websocket_parser.py" line="1504" time="0.200"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_frame_split_across_many_reads_is_delivered_intact[False]" file="tests\test_websocket_parser.py" line="1109" time="0.043"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_binary" file="tests\test_websocket_writer.py" line="50" time="0.012"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_binary_very_long" file="tests\test_websocket_writer.py" line="60" time="0.007"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_collected_stalled_reader_preserves_existing_exception" file="tests\test_websocket_parser.py" line="1568" time="0.231"><system-out>--------------------------------- Captured Log ---------------------------------
+WARNING  aiohttp.websocket:tasks.py:488 WebSocketReader was garbage collected while stalled; callers of set_parser() must hold a strong reference
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_close" file="tests\test_websocket_writer.py" line="69" time="0.010"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_transport_stays_paused_while_stash_remains" file="tests\test_websocket_parser.py" line="1368" time="0.398"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text[isal.isal_zlib]" file="tests\test_websocket_writer.py" line="91" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:92: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_pong" file="tests\test_websocket_writer.py" line="35" time="0.011"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_text_masked" file="tests\test_websocket_writer.py" line="81" time="0.030"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text[zlib]" file="tests\test_websocket_writer.py" line="91" time="0.014"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_binary_long" file="tests\test_websocket_writer.py" line="55" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_set_exception_still_delivers_stashed_frames" file="tests\test_websocket_parser.py" line="1460" time="0.431"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text[zlib_ng.zlib_ng]" file="tests\test_websocket_writer.py" line="91" time="0.011"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text_notakeover[zlib]" file="tests\test_websocket_writer.py" line="115" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text_notakeover[isal.isal_zlib]" file="tests\test_websocket_writer.py" line="115" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:116: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text_per_message" file="tests\test_websocket_writer.py" line="135" time="0.008"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_text_notakeover[zlib_ng.zlib_ng]" file="tests\test_websocket_writer.py" line="115" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_text" file="tests\test_websocket_writer.py" line="45" time="0.009"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_parser" name="test_collected_stalled_reader_surfaces_contract_error" file="tests\test_websocket_parser.py" line="1551" time="0.218"><system-out>--------------------------------- Captured Log ---------------------------------
+WARNING  aiohttp.websocket:tasks.py:488 WebSocketReader was garbage collected while stalled; callers of set_parser() must hold a strong reference
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_cancelled[zlib_ng.zlib_ng]" file="tests\test_websocket_writer.py" line="147" time="0.140"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_multiple_cancelled[isal.isal_zlib]" file="tests\test_websocket_writer.py" line="201" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:202: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_cancelled[isal.isal_zlib]" file="tests\test_websocket_writer.py" line="147" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:148: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_cancelled[zlib]" file="tests\test_websocket_writer.py" line="147" time="0.123"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[zlib_ng.zlib_ng-16-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.117"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[zlib-16-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.114"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[zlib-32-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.102"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[isal.isal_zlib-16-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:274: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[zlib-4096-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.031"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[isal.isal_zlib-32-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:274: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_multiple_cancelled[zlib]" file="tests\test_websocket_writer.py" line="201" time="0.279"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_send_compress_multiple_cancelled[zlib_ng.zlib_ng]" file="tests\test_websocket_writer.py" line="201" time="0.278"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[zlib_ng.zlib_ng-32-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.128"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[isal.isal_zlib-4096-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.000"><skipped type="pytest.skip" message="could not import 'isal.isal_zlib': No module named 'isal'">D:\hc\userFeedback\cache\workspaces\uf-20261111-sec-02-websocket-inflate-retry-1\tests\test_websocket_writer.py:274: could not import 'isal.isal_zlib': No module named 'isal'</skipped><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="tests.test_websocket_writer" name="test_concurrent_messages[zlib_ng.zlib_ng-4096-&lt;lambda&gt;]" file="tests\test_websocket_writer.py" line="273" time="0.030"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

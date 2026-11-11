@@ -1,0 +1,17 @@
+{
+  "time": "2026-11-12T05:47:27+08:00",
+  "repository": "9873199/aiohttp-streaming-ws-limits",
+  "visibility": "public",
+  "public_unauthenticated_api_verified": true,
+  "initial_sha": "2c8b18209776867f19ebe40d6c10da7d1a033912",
+  "final_sha": "566d211af83387106c03640db17d47ef9cf4f79a",
+  "initial_url": "https://github.com/9873199/aiohttp-streaming-ws-limits/commit/2c8b18209776867f19ebe40d6c10da7d1a033912",
+  "final_url": "https://github.com/9873199/aiohttp-streaming-ws-limits/commit/566d211af83387106c03640db17d47ef9cf4f79a",
+  "all_frozen_blob_hashes_verified": true,
+  "initial_is_ancestor": true,
+  "model_commit_chain_preserved": true,
+  "frozen_files": 514,
+  "public_branch": "review-uid116-high-resume-20261111",
+  "automatic_submission": false,
+  "user_review_required": true
+}

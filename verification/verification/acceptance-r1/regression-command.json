@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\tests\\test_websocket_parser.py",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\tests\\test_websocket_writer.py",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\tests\\test_websocket_inflate.py",
+    "--basetemp",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\tmp-regression",
+    "--junitxml",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\regression.xml",
+    "--disable-warnings"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source",
+  "PYTHONPATH": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source;D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\src",
+  "python": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+  "exit_code": 0,
+  "seconds": 33.47,
+  "log": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\regression.log"
+}

@@ -1,0 +1,27 @@
+{
+  "time": "2026-11-12T05:48:38+08:00",
+  "container_used": false,
+  "python": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+  "dependencies": {
+    "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "module_paths": {
+      "aiohttp": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\__init__.py",
+      "aiohttp._websocket.reader_py": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\_websocket\\reader_py.py",
+      "aiohttp._websocket.reader_c": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\_websocket\\reader_c.cp314-win_amd64.pyd"
+    },
+    "packages": {
+      "aiohttp": "4.0.0a2.dev0",
+      "pytest": "9.2.0",
+      "Cython": "3.3.1"
+    }
+  },
+  "external_dependencies": [
+    "Native Windows Python with standard-library zlib; no container",
+    "Build-only Cython/prepared native compiler and declared llhttp gitlink/archive; standalone replay actually regenerates/builds/imports .pyd",
+    "Native run installed Zig in cache environment; its default global cache violated the required location, later recovered without modifying source or original trace",
+    "Security acceptance uses locally generated in-memory frames; no live untrusted service or external attack target",
+    "Optional isal unavailable; relevant tests skipped, not claimed as coverage"
+  ],
+  "module_import_verified": true
+}

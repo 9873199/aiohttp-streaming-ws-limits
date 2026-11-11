@@ -1,0 +1,319 @@
+{
+  "time": "2026-11-12T05:48:38+08:00",
+  "reviewed": true,
+  "frozen_commit": "566d211af83387106c03640db17d47ef9cf4f79a",
+  "files": [
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\Feedback.md",
+      "path": "Feedback.md",
+      "sha256": "a9fcb8152a5191660569fe5b8f6317bb1f24e1ccf489ab1dcb9065be3507c160"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\evidence-map.json",
+      "path": "evidence-map.json",
+      "sha256": "950971dd5961337ad69e020dfa72868cab9a77096b226661d87350fcff8d24b1"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\environment-reviewed.json",
+      "path": "environment-reviewed.json",
+      "sha256": "632f56a5ca1a08c57c530427f014e3940d7286ee038fb6f72feff60c604829b4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\freeze-audit.json",
+      "path": "freeze-audit.json",
+      "sha256": "c85470885b3a67ec80c3adc3351fefece8972f307b8bc6e50d7bc2cafc39438a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\snapshot-proof.json",
+      "path": "snapshot-proof.json",
+      "sha256": "d522db48d1fa48233e6f9d44574b0cb101ac38c995399128109ff6be3fecb460"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\acceptance-command.json",
+      "path": "verification/acceptance-r1/acceptance-command.json",
+      "sha256": "b2ce61b1766f9761484be97efd34f9dd27e17703672d2ba8e35097df3bc2902b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\acceptance.log",
+      "path": "verification/acceptance-r1/acceptance.log",
+      "sha256": "f8731cef8686576a7c26d714213a313dddaf5c9180a864f1f7835a2736fa4638"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\acceptance.xml",
+      "path": "verification/acceptance-r1/acceptance.xml",
+      "sha256": "7be8bdb7c7d213cc07ac3c9322597657b9f918dad612b7308d3a337418044e3e"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\regression-command.json",
+      "path": "verification/acceptance-r1/regression-command.json",
+      "sha256": "629bfa6b7ae078fdb0fb5396a1ade85aa64b14676645931a2bbf798e2785f8b5"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\regression.log",
+      "path": "verification/acceptance-r1/regression.log",
+      "sha256": "79039acae865f3bbef315349fb6086e6d49145e605a920717d36f418b2c587e2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\regression.xml",
+      "path": "verification/acceptance-r1/regression.xml",
+      "sha256": "c7631fb4ec7698c600baa4ad1cce91d107c4b22b81161c0e8f795dbb4a1e34f3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\test-results.json",
+      "path": "verification/acceptance-r1/test-results.json",
+      "sha256": "7861474854cdb7d34a00f12f12f367d3de21bd6373eacea78b0a24bb75058afa"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\test_acceptance.py",
+      "path": "verification/acceptance-r1/test_acceptance.py",
+      "sha256": "10170e722122c2a243481e54db054469fda5f3357c948f6e8e8abbc4f01ad173"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\acceptance-command.json",
+      "path": "verification/truncation-r1/acceptance-command.json",
+      "sha256": "a23078f0110d64426ef22f6ece28d7cd5dd24bb8642b8b76173d8c0a74d9d29d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\acceptance-support.json",
+      "path": "verification/truncation-r1/acceptance-support.json",
+      "sha256": "86d987bfa4c38afe609c17163d8630809d873ff7030f0702cc722aabdb0e9bf7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\acceptance.log",
+      "path": "verification/truncation-r1/acceptance.log",
+      "sha256": "bfbc39b07adf14023f2da1c9f8675663255cfaee3941a7d0fa1651a260b72d80"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\acceptance.xml",
+      "path": "verification/truncation-r1/acceptance.xml",
+      "sha256": "2cfb5acc1f4ca3a6510aa5620adec86dbc49dd3b18b601fe0c88e41ad57cdde0"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\test-results.json",
+      "path": "verification/truncation-r1/test-results.json",
+      "sha256": "e6f6afe51c86495863c2720eb21d4eee117a3a8096e5787956a24b9833597147"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\test_acceptance.py",
+      "path": "verification/truncation-r1/test_acceptance.py",
+      "sha256": "a276a698639d0c057ecab7fffa9820325fcb1deda2dee3f2767b187ad974bda2"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\websocket_checks.py",
+      "path": "verification/truncation-r1/websocket_checks.py",
+      "sha256": "10170e722122c2a243481e54db054469fda5f3357c948f6e8e8abbc4f01ad173"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\acceptance-command.json",
+      "path": "verification/release-r1/acceptance-command.json",
+      "sha256": "88c7428f733bfee727bd3d5577d6a68fc0ae13dddaa90a037e6f3fc3c32ddee4"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\acceptance-support.json",
+      "path": "verification/release-r1/acceptance-support.json",
+      "sha256": "86d987bfa4c38afe609c17163d8630809d873ff7030f0702cc722aabdb0e9bf7"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\acceptance.log",
+      "path": "verification/release-r1/acceptance.log",
+      "sha256": "c4edbacb4da7d8260a3f531a2ec4a113321ba482ffb3ce9be1d6fd24aaeab08d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\acceptance.xml",
+      "path": "verification/release-r1/acceptance.xml",
+      "sha256": "c3f91eab923777957af8692f211f8a8f7c44b9f58e237e13050d1b2851e16a0f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\test-results.json",
+      "path": "verification/release-r1/test-results.json",
+      "sha256": "abb7c7ea72d41ac206706eee55ea2cb169f855d4190c011358c7d5e66de5b23c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\test_acceptance.py",
+      "path": "verification/release-r1/test_acceptance.py",
+      "sha256": "842f03b1fd6fff198729741eb5078dd91995cb68e3fb4df4e727b2111fadc417"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\websocket_checks.py",
+      "path": "verification/release-r1/websocket_checks.py",
+      "sha256": "10170e722122c2a243481e54db054469fda5f3357c948f6e8e8abbc4f01ad173"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\fixture-fixture-proof.json",
+      "path": "verification/scope-and-provenance-r1/fixture-fixture-proof.json",
+      "sha256": "16c4e810a8a82cf19b626b0e1783a5c4d7bab4ec43ddd6f12994370afb1dac26"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\fixture-selfcheck_source.py",
+      "path": "verification/scope-and-provenance-r1/fixture-selfcheck_source.py",
+      "sha256": "4bd890704ae2cbb5403e6840636b0b199479278dd707f29f257bdce3b4fb6573"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\future-zig-helper-proof.json",
+      "path": "verification/scope-and-provenance-r1/future-zig-helper-proof.json",
+      "sha256": "9d69e1fefd972ecac4181fbc6ac31c11d0ded8a8126bf8925e2d56a4baf740a6"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\gitlink-followup-readonly.json",
+      "path": "verification/scope-and-provenance-r1/gitlink-followup-readonly.json",
+      "sha256": "e4f435bc3ed058ba9c992bcf49d38b1dd22fc606c82bd0d3c4eaa61749400f6d"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\helper-provenance.json",
+      "path": "verification/scope-and-provenance-r1/helper-provenance.json",
+      "sha256": "a6a6a27ba08799a4c44917e260b5815e3d38ed3f9bc00a7e7c2e7d8369ecc119"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\initial-baseline-command.json",
+      "path": "verification/scope-and-provenance-r1/initial-baseline-command.json",
+      "sha256": "b35ae06516c6eb0e26acfba8a7fed22a46190598c9bd1af80966269d2f0445ed"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\initial-baseline.log",
+      "path": "verification/scope-and-provenance-r1/initial-baseline.log",
+      "sha256": "3df9540a8e932932256a01a7dc43cb32f3ee56781bba24cc6c54fb77437efbf6"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\initial-baseline.xml",
+      "path": "verification/scope-and-provenance-r1/initial-baseline.xml",
+      "sha256": "5d20d5325555246b5bd564e024c6d98bc8e9e56fbbb31f132c37a8d10d99c74b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\initial-import-source.log",
+      "path": "verification/scope-and-provenance-r1/initial-import-source.log",
+      "sha256": "8fb372e6f15bc793a1366d943a41c418cfe8cc2f1c9f588c16ed234ed34fd824"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\initial-submodule-provenance.json",
+      "path": "verification/scope-and-provenance-r1/initial-submodule-provenance.json",
+      "sha256": "a51c11b5d7e41f4d3bd141399717c58175f88e042b9d1642aec286d0cb3e6109"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\observable-test-excerpts.json",
+      "path": "verification/scope-and-provenance-r1/observable-test-excerpts.json",
+      "sha256": "6406be0bb86f9a670cbebf3ac399322125856bc2c1fe9bb790ef0c063da8ea03"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\scope-and-provenance-r1\\scope-summary.json",
+      "path": "verification/scope-and-provenance-r1/scope-summary.json",
+      "sha256": "b259bd9ae7b3fd519cc2bb4667065a2ebfde80a14cdd46af22c046b46ff20b6c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\execution-cache-audit-r1\\incident-summary.json",
+      "path": "verification/execution-cache-audit-r1/incident-summary.json",
+      "sha256": "51835b9cdc8f36d3309d666bf95a22c29708c1d58579debdd831faff2b3d0efe"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\build-config.json",
+      "path": "replay/r1/build-config.json",
+      "sha256": "26b3ea2204f41f343872902ab7d585bc2da9cbe96f31542cf143a1543bdf548a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-_http_parser-command.json",
+      "path": "replay/r1/cythonize-_http_parser-command.json",
+      "sha256": "948d1d48b74cf50b1f9660016c8c2270c40d948a86b700d5bc9cadec0927587c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-_http_parser.log",
+      "path": "replay/r1/cythonize-_http_parser.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-_http_writer-command.json",
+      "path": "replay/r1/cythonize-_http_writer-command.json",
+      "sha256": "f98701e71b76c27e31eedc3799ec48e0dc57eb427c047782b62f07e4c648da60"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-_http_writer.log",
+      "path": "replay/r1/cythonize-_http_writer.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-mask-command.json",
+      "path": "replay/r1/cythonize-mask-command.json",
+      "sha256": "2f48f8a396aa6c25187a67f618d1efe98fe3643c697631f32a91aae1580fa99a"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-mask.log",
+      "path": "replay/r1/cythonize-mask.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-reader-command.json",
+      "path": "replay/r1/cythonize-reader-command.json",
+      "sha256": "bd8d7f51c6fc3052478d753be93911e8cb271f0bb4c92ac67fb4095dd799c276"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\cythonize-reader.log",
+      "path": "replay/r1/cythonize-reader.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\editable-install-command.json",
+      "path": "replay/r1/editable-install-command.json",
+      "sha256": "74343a65f12ad8d2870fe8061bb069c68a595d230835e5e5414d3532c5db384b"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\editable-install.log",
+      "path": "replay/r1/editable-install.log",
+      "sha256": "83625f17d4ede5c507fd6e00b4ae48b2f668c2291133642e2eb11742450bbcfa"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\generate-header-command.json",
+      "path": "replay/r1/generate-header-command.json",
+      "sha256": "1246ae817f352f94273ed54af4a2b4e338b4125eac65834fa8ed92456debb170"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\generate-header.log",
+      "path": "replay/r1/generate-header.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\import-source-command.json",
+      "path": "replay/r1/import-source-command.json",
+      "sha256": "5d8076f7fcefa1f6de635bca40d5fcf77843792082afd17f0dac78665496f066"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\import-source.log",
+      "path": "replay/r1/import-source.log",
+      "sha256": "ff3b68c05f951a28dd8da06c06988289d8f27bd6437529d4885798cf79372f74"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1\\replay-proof.json",
+      "path": "replay/r1/replay-proof.json",
+      "sha256": "a4eec031733c09521c03062afb59a9109759c5bb5324568a5f1c30d0533578d3"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\actual-commands.json",
+      "path": "recording/actual-commands.json",
+      "sha256": "63d2148abee1528d3f73471fcd679c889e9fd775a5a7aa772fff10c87827459c"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\content-review.json",
+      "path": "recording/content-review.json",
+      "sha256": "ada2d7f3b6f360ae3cb68944f2cb27818792461275e3809b8094267c0e362e7f"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\recording-status.json",
+      "path": "recording/recording-status.json",
+      "sha256": "8d531713bbb8da68813bbd37a85cc7de1a9eed750ffda3d350ac4231b2e8dcea"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\full-stream-check.json",
+      "path": "recording/full-stream-check.json",
+      "sha256": "a810b8abe15f243228c882b1f0e951e1255adbd16214fc256a31af9c076f8c57"
+    },
+    {
+      "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\media-metadata.log",
+      "path": "recording/media-metadata.log",
+      "sha256": "65c50fb4463d124b6b1f5d189a46c1faeb20f5d028246f9f1cf1e9f0ba79eb0d"
+    }
+  ],
+  "reproduction_readme": "独立验收说明\n\n冻结提交：https://github.com/9873199/aiohttp-streaming-ws-limits/commit/566d211af83387106c03640db17d47ef9cf4f79a\n实际解释器：3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]\n\n从冻结提交恢复完整源码，实际Python/依赖版本见environment-reviewed.json。replay/r1记录Cython生成全部扩展、准备的本机编译工具链安装与实际.pyd导入路径；初始llhttp为官方固定commit archive，父gitlink/provenance/SHA匹配，不能把无.git归档假称clone。acceptance-r1含parser/writer/新增inflate回归170过11跳过和独立22项全过；truncation-r1四过，release-r1两过。后两组support websocket_checks.py只是同一独立frame/reader夹具，没有插入产品安全逻辑。原生语料测试模块本身参数化两种实现，默认模式和NO_EXTENSIONS=1各22过不能加成44个不同用例。原轨最后五文件181/4与179/6有效，功能套件264/281/284只有默认模式命令；不将最后答复宽泛句作为额外双模式测试证据。scope-and-provenance-r1另存初始148/11基线和可观察测试摘要，不另附原轨或stream。recording是独立验证控制台，连续75秒四命令均0。Zig系统缓存偏差单列execution-cache-audit-r1，1651新文件73704804字节已同SHA迁回cache，旧缓存保留；不得改原轨消除该历史记录。源树快照为精确冻结字节，Windows换行差异可能扩大Git树差异，不把换行变动当模型功能编辑；题面逐字门禁不做任何归一化。\n\n每组目录内的 *-command.json 保留真实参数、工作目录、PYTHONPATH、退出码和原始日志位置；test-results.json 与 JUnit XML 保留完整成绩。跨机器运行时把这些绝对路径映射到同一冻结 checkout 和自己的缓存目录，所有 --basetemp、XML 和构建输出均放在缓存里。依赖版本见 environment-reviewed.json。\n这些材料在模型单轮结束后生成，与原轨内测试分开，不代表项目方质检通过。原轨和视频只放各自的飞书附件。\n",
+  "excluded_engineering_attempts": [
+    {
+      "path": "cache-location-audit/zig-116-r1",
+      "reason": "Read-only inventory assertion assumed logical and physical Windows paths identical. r2 records actual MSIX resolution. No model rerun or source repair."
+    }
+  ]
+}

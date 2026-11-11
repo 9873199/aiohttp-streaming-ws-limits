@@ -1,0 +1,16 @@
+{
+  "source": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source",
+  "compiler": {
+    "VSCMD_ARG_HOST_ARCH": "x64",
+    "VSCMD_ARG_TGT_ARCH": "x64",
+    "DISTUTILS_USE_SDK": "1",
+    "MSSdk": "1",
+    "VCToolsInstallDir": "D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\VC\\Tools\\MSVC\\14.44.35207\\",
+    "WindowsSDKVersion": "10.0.26100.0\\",
+    "INCLUDE": "D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\VC\\Tools\\MSVC\\14.44.35207\\include;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\Include\\10.0.26100.0\\ucrt;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\Include\\10.0.26100.0\\shared;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\Include\\10.0.26100.0\\um;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\Include\\10.0.26100.0\\winrt",
+    "LIB": "D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\VC\\Tools\\MSVC\\14.44.35207\\lib\\x64;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\Lib\\10.0.26100.0\\ucrt\\x64;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\Lib\\10.0.26100.0\\um\\x64"
+  },
+  "compiler_path": "D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64;D:\\hc\\userFeedback\\cache\\toolchains\\msvc\\Windows Kits\\10\\bin\\10.0.26100.0\\x64",
+  "extra": {},
+  "pip_config_file": "nul"
+}

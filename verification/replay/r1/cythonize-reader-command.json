@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+    "-m",
+    "cython",
+    "-3",
+    "--module-name",
+    "aiohttp._websocket.reader_c",
+    "-X",
+    "freethreading_compatible=True",
+    "-o",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\_websocket\\reader_c.c",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\_websocket\\reader_py.py",
+    "-I",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp",
+    "-Werror"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source",
+  "exit_code": 0,
+  "seconds": 6.46
+}

@@ -1,0 +1,21 @@
+{
+  "time": "2026-11-12T05:37:01+08:00",
+  "status": "NEW_CACHE_FILES_RELOCATED",
+  "source": "C:\\Users\\Administrator\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0\\LocalCache\\Local\\zig",
+  "destination": "D:\\hc\\userFeedback\\cache\\tool-cache\\zig-recovered-uid116-20261112",
+  "moved_files": 1651,
+  "moved_bytes": 73704804,
+  "all_copied_hashes_verified": true,
+  "new_files_remaining_at_source": [],
+  "older_cache_files_names_sizes_mtimes_preserved": true,
+  "old_file_count": 8494,
+  "prior_empty_timestamp_file_preserved": {
+    "bytes": 0,
+    "modified": 1794431516.7259352
+  },
+  "model_source_or_trajectory_changed": false,
+  "historical_outside_cache_write_happened": true,
+  "future_helper": "skill/user-feedback-workflow/scripts/zig-cache-env.ps1",
+  "future_profile_requires_new_preflight": true,
+  "attribution": "Files created since the sole active Zig compilation in this model run; no live Zig process at relocation. Older files are excluded."
+}

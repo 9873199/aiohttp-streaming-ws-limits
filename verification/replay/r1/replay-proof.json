@@ -1,0 +1,21 @@
+{
+  "uid": 116,
+  "run_id": "uf-20261111-sec-02-websocket-inflate-retry-1",
+  "original_artifact": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\frozen-artifact",
+  "replay_artifact": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source",
+  "python": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+  "frozen_sources_match": true,
+  "native_module": "aiohttp._websocket.reader_c",
+  "module_import_verified": true,
+  "declared_submodules": [
+    {
+      "path": "vendor/llhttp",
+      "commit": "01e105a30fd06e248bc8ac73c4adb34a63d4114a",
+      "purpose": "Declared upstream build dependency, not model changes",
+      "source_provenance": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\environment-repair\\116\\retry-baseline-r3\\submodule-provenance.json",
+      "official_source_hashes_verified": true
+    }
+  ],
+  "rebuild_directory": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\replay\\r1",
+  "created": "2026-11-12T05:39:14+08:00"
+}

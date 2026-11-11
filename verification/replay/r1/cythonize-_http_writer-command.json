@@ -1,0 +1,19 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+    "-m",
+    "cython",
+    "-3",
+    "-X",
+    "freethreading_compatible=True",
+    "-o",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\_http_writer.c",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp\\_http_writer.pyx",
+    "-I",
+    "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source\\aiohttp",
+    "-Werror"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\source",
+  "exit_code": 0,
+  "seconds": 5.78
+}

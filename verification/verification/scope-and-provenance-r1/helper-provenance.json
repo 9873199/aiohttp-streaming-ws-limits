@@ -1,0 +1,7 @@
+{
+  "time": "2026-11-12T05:40:52+08:00",
+  "source": "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\acceptance-websocket.py",
+  "sha256": "10170e722122c2a243481e54db054469fda5f3357c948f6e8e8abbc4f01ad173",
+  "local_name": "websocket_checks.py",
+  "purpose": "Explicitly share identical reader/frame fixtures with independent truncation and error-release suites; no product adapter or security logic inserted."
+}

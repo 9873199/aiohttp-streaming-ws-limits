@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\environments\\uf-20261111-sec-02-websocket-inflate\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-q",
+    "-p",
+    "no:cacheprovider",
+    "tests/test_websocket_parser.py",
+    "tests/test_websocket_writer.py",
+    "--basetemp",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\environment-repair\\116\\retry-baseline-r3\\pytest",
+    "--junitxml",
+    "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\environment-repair\\116\\retry-baseline-r3\\baseline.xml",
+    "--disable-warnings"
+  ],
+  "cwd": "D:\\hc\\userFeedback\\cache\\workspaces\\uf-20261111-sec-02-websocket-inflate-retry-1",
+  "exit_code": 0,
+  "seconds": 33.47
+}

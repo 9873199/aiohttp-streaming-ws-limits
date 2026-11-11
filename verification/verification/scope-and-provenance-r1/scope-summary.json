@@ -1,0 +1,46 @@
+{
+  "time": "2026-11-12T05:47:18+08:00",
+  "initial_selected_baseline": {
+    "passed": 148,
+    "skipped": 11
+  },
+  "independent_final_selected_regression": {
+    "passed": 170,
+    "skipped": 11,
+    "includes_new_inflate_module": true
+  },
+  "native_final_default_mode": {
+    "passed": 181,
+    "skipped": 4,
+    "lines": [
+      317,
+      318
+    ],
+    "paths": [
+      "tests/test_websocket_parser.py",
+      "tests/test_websocket_inflate.py",
+      "tests/test_websocket_data_queue.py",
+      "tests/test_websocket_handshake.py",
+      "tests/test_web_protocol.py"
+    ]
+  },
+  "native_final_no_extensions_mode": {
+    "passed": 179,
+    "skipped": 6,
+    "lines": [
+      320,
+      321
+    ],
+    "same_five_paths": true
+  },
+  "native_inflate_module": "The new module explicitly parameterizes Python and Cython readers; each22-run includes both implementations even when the default-mode env is switched. Do not count the two22 runs as44 distinct cases.",
+  "final_answer_overstatement": {
+    "line": 324,
+    "claim": "All listed regression suites passed on both paths",
+    "observed": "test_client_ws_functional and test_web_websocket_functional calls at281/284 run only default mode; test_web_websocket at264 also only default. Do not invent corresponding pure-Python runs."
+  },
+  "transient_error": "Native Python core run had OSError in test_receive_does_not_reset_heartbeat at267; isolated273 passed1 and whole client_ws278 passed37. No initial-baseline reproduction of that transient error; cause left unconfirmed.",
+  "native_test_fixture_fix": "Initial new corpus failed only empty-continuation assertion made after FIN; changed at248 to check empty before FIN and final message after FIN. Frozen22 pass; retain first failure in original.",
+  "compiler_tools": "Native direct compiler discovery missed prepared cache toolchain, then built/imported via Zig; independent replay r1 regenerates and builds with prepared compiler and checks actual .pyd path. Native ruff missing, not lint PASS.",
+  "cache_incident": "Separate execution-cache-audit-r1 documents1651 new files/73704804 bytes outside mandated cache, relocated unchanged after session. Prior cache retained, historical exception not erased."
+}

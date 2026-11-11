@@ -1,0 +1,80 @@
+[
+  {
+    "id": "check-1",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "-p",
+      "no:cacheprovider",
+      "tests/test_websocket_inflate.py",
+      "--basetemp",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\tmp-native",
+      "--disable-warnings"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 28.55
+  },
+  {
+    "id": "check-2",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "-s",
+      "-p",
+      "no:cacheprovider",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\acceptance-r1\\test_acceptance.py",
+      "--tb=short",
+      "--basetemp",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\tmp-2",
+      "--disable-warnings"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 34.36
+  },
+  {
+    "id": "check-3",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "-s",
+      "-p",
+      "no:cacheprovider",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\truncation-r1\\test_acceptance.py",
+      "--tb=short",
+      "--basetemp",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\tmp-3",
+      "--disable-warnings"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 44.16
+  },
+  {
+    "id": "check-4",
+    "argv": [
+      "D:\\hc\\userFeedback\\cache\\native-replays\\uid116-r1\\venv\\Scripts\\python.exe",
+      "-B",
+      "-m",
+      "pytest",
+      "-q",
+      "-s",
+      "-p",
+      "no:cacheprovider",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\verification\\release-r1\\test_acceptance.py",
+      "--tb=short",
+      "--basetemp",
+      "D:\\hc\\userFeedback\\cache\\execution-security-high-resume-20261111\\evaluation\\uf-20261111-sec-02-websocket-inflate-retry-1\\recording\\r1\\tmp-4",
+      "--disable-warnings"
+    ],
+    "exit_code": 0,
+    "finished_at_seconds": 61.58
+  }
+]
